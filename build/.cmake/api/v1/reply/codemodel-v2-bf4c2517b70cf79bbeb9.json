@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src/database",
+					"jsonFile" : "directory-src.database-Debug-bc47545b602a2b73f466.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/database",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/driver",
+					"jsonFile" : "directory-src.driver-Debug-35d45b73741960fed878.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/driver",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/persistence",
+					"jsonFile" : "directory-src.persistence-Debug-d6ce5c51bc8350a01240.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/persistence",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "SelfDB",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "database::@f1aa34bc7b1afc1810b8",
+					"jsonFile" : "target-database-Debug-1da52ffc4086384637e0.json",
+					"name" : "database",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "driver::@49e83f50c4c71b496537",
+					"jsonFile" : "target-driver-Debug-43a6d0d6f9a8bfeaf841.json",
+					"name" : "driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "persistence::@208d9bfc7c204ad7dc45",
+					"jsonFile" : "target-persistence-Debug-c50174bf624bc202978f.json",
+					"name" : "persistence",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/build",
+		"source" : "/home/zhangwenzhe/learning_c++/selfdb/cpp-app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
