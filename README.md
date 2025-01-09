@@ -1,4 +1,4 @@
-# Code Statistics
+# SelfDB
 A simple database for self use
 
 # Example Usage
