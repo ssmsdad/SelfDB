@@ -11,11 +11,10 @@ class mycppRecipe(ConanFile):
     package_type = "application"
 
     # Optional metadata
-    license = "GPL-3.0"
-    author = "im.zhong@outlook.com"
-    url = "https://github.com/im-zhong/code_statistics"
+    author = "zhangwenzheq@outlook.com"
+    url = "https://github.com/ssmsdad/SelfDB.git"
     description = "A simple database for self use"
-    topics = ("C++", "Code", "Statistics")
+    topics = ("C++", "Database")
 
     # Binary configuration
     settings = "os", "compiler", "build_type", "arch"
@@ -26,8 +25,6 @@ class mycppRecipe(ConanFile):
     # "ConanFile" 是类型注释，用于告诉编辑器这是一个 ConanFile 类型的对象
     def requirements(self: ConanFile):
         self.requires("cli11/2.3.2")
-        self.requires("doctest/2.4.11")
-        self.requires("fmt/10.2.1")
 
     def layout(self):
         # 根据 CMake 的惯例设置源代码、构建和包的目录结构，会自动创建 build 目录

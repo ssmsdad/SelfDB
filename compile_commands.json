@@ -1,17 +1,1 @@
-[
-{
-  "directory": "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/build",
-  "command": "/usr/bin/g++ -I/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/database/include -g -std=gnu++11 -o src/database/CMakeFiles/database.dir/src/database.cpp.o -c /home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/database/src/database.cpp",
-  "file": "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/database/src/database.cpp"
-},
-{
-  "directory": "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/build",
-  "command": "/usr/bin/g++ -I/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/driver/include -I/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/database/include -I/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/persistence/include -g -std=gnu++11 -o src/driver/CMakeFiles/driver.dir/src/driver.cpp.o -c /home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/driver/src/driver.cpp",
-  "file": "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/driver/src/driver.cpp"
-},
-{
-  "directory": "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/build",
-  "command": "/usr/bin/g++ -I/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/persistence/include -g -std=gnu++11 -o src/persistence/CMakeFiles/persistence.dir/src/persistence.cpp.o -c /home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/persistence/src/persistence.cpp",
-  "file": "/home/zhangwenzhe/learning_c++/selfdb/cpp-app/src/persistence/src/persistence.cpp"
-}
-]
+build/Release/compile_commands.json
